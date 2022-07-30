@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/debmainak/static/css/main.4eed78ac.css",
+    "main.js": "/debmainak/static/js/main.1fda8778.js",
+    "static/js/787.cf0012ce.chunk.js": "/debmainak/static/js/787.cf0012ce.chunk.js",
+    "index.html": "/debmainak/index.html",
+    "main.4eed78ac.css.map": "/debmainak/static/css/main.4eed78ac.css.map",
+    "main.1fda8778.js.map": "/debmainak/static/js/main.1fda8778.js.map",
+    "787.cf0012ce.chunk.js.map": "/debmainak/static/js/787.cf0012ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eed78ac.css",
+    "static/js/main.1fda8778.js"
+  ]
+}
