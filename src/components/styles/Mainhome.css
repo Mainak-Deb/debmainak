@@ -1,0 +1,18 @@
+.mainhomediv{
+    color: rgb(0, 126, 17);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+    height: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    height: auto;
+    background-color: aliceblue;
+
+}

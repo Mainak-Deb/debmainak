@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+body
+{
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+}
+.time
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+.time div
+{
+    padding: 10px;
+    margin: 10px;
+    border-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    border-style: solid;
+    width: 8rem;
+    text-align: center;
+    transition-duration: .5s;
+}
+
+.date
+{
+    color: white;
+    top: 50%;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.date div
+{
+    padding: 10px;
+    margin: 10px;
+    border-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    width: 8rem;
+    border-style: solid;
+    text-align: center;
+    transition-duration: .5s;
+}
+
+.bg
+{
+    background-color: black;
+    border-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    border-style: solid;
+    width: 20rem;
+    padding: 1rem;
+    transition-duration: .5s;
+    margin: auto;
+    margin-bottom: 1.5rem; 
+}
+/*For the hover animation*/
+.bg:hover
+{
+    border-color: rgb(226, 149, 5);
+    box-shadow: 0px 0px 10px 1px rgb(226, 149, 5);
+    cursor: default;
+    transition-duration: .5s;
+}
+.date div:hover
+{
+    border-color: rgb(250, 18, 18);
+    box-shadow: 0px 0px 10px 1px rgb(250, 18, 18);
+    cursor: default;
+    transition-duration: .5s; 
+}
+.time div:hover
+{
+    border-color: rgb(35, 94, 255);
+    box-shadow: 0px 0px 10px 1px rgba(35,94,255,0.78);
+    transition-duration: .5s;
+    cursor: default;
+}

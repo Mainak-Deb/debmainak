@@ -11,9 +11,9 @@ const Codefont = () => {
 
 rooe
 
-,-i: nmap
+-i: nmap
 
-Starting Nmap 6.40 ( http://nmap.org ) at 2014-09-05 16:16 EDT
+Starting Nmap 6.40 ( http://nmap.org ) at 2022-07-29 16:16 EDT
 mass dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled
 Try using --system-dns or specify valid servers with --dns-servers
 Nmap scan report for 192.168.89.191
@@ -25,15 +25,13 @@ PORT STATE SERVICE
 25/tcp              open sp 455.6.7.9.0
 25/tcp              open smtp 455.6.4.9.0
 53/tcp              open 455.6.7.5.0
-53/tcp              open domain 455.6.7.9.0
-80/tcp              open 455.6.7.9.0
-80/tcp              open http 465.6.3.9.0
-llO/tcp             open pop 255.6.7.9.0
-135/                open pop3 155.6.7.9.0
-llO/tcp             open pop3 455.6.7.9.0
-135/tcp             open msrpc 155.6.7.9.0
-135/tcp             open msrpc 455.6.7.9.0
 
+      _,     ,_
+    .'/  ,_   \'.
+   |  \__( >__/  |
+   \             /
+    '-..__ __..-'
+jgs      /_\
 connecting Mainak
 wait..
 wait...
@@ -59,6 +57,22 @@ I am a 21 years old CS studen
 oops
 Connection Abboart
 
+53/tcp              open domain 455.6.7.9.0
+80/tcp              open 455.6.7.9.0
+80/tcp              open http 465.6.3.9.0
+llO/tcp             open pop 255.6.7.9.0
+135/                open pop3 155.6.7.9.0
+llO/tcp             open pop3 455.6.7.9.0
+135/tcp             open msrpc 155.6.7.9.0
+135/tcp             open msrpc 455.6.7.9.0
+connection abborted
+sorry..............
+.
+/
+.
+/
+wait, we are back
+redirecting you to the mainak
 
   ...`;
 
@@ -69,19 +83,18 @@ Connection Abboart
     hackcode.current.innerHTML = "";
     setbstate(false);
     const interval = setInterval(() => {
-      if (count < textString.length && prev != count) {
+      if (count < textString.length && prev !== count) {
         let postNode = document.createElement("span");
         postNode.innerText = textString[count];
         postNode.classList.add("hacking-animation__character");
-        postNode.classList.add("hacking-animation__character");
-        console.log(postNode);
+        //console.log(postNode);
         hackcode.current.appendChild(postNode);
-        console.log(count, prev);
+        //console.log(count, prev);
         prev = count;
         count = count + 1;
-        if(count == textString.length-2){
+        if(count === textString.length-2){
           //setbstate(true);
-          window.location.href = "/";
+          window.location.href = "/home";
         }
       }
 

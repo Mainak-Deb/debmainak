@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./styles/Landing.css";
-import { Redirect } from "react-router";
 import { Link } from "react-router-dom";
 
 
@@ -12,7 +11,6 @@ const Landing = () => {
   const characters =
     "!#$%&'()*+,-./:;<=>?@[]^_`{|}~ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-  let iterations = finaltext.length + 20;
   function randomstr() {
     let n = Math.random();
     n = n * characters.length;
@@ -21,7 +19,6 @@ const Landing = () => {
     return out;
   }
 
-  const elemout = useRef(null);
 
   useEffect(() => {
     let count = 0;
