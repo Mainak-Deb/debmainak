@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300');
+.terminalhead{
+    display:block;
+    font-family:Roboto Mono;
+    line-height:1.7;
+    text-shadow: #0ee027 0 0 0.8rem;
+    color:#0ee02686;
+    font-size: 5vw;
+    font-weight: 800;
+    text-align: center;
+    animation: cursor-blink 6s infinite both;
+}
+hr{
+    background-color:#0ee027;
+}
+
+@keyframes cursor-blink {
+    0% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

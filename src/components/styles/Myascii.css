@@ -1,0 +1,14 @@
+.ascii{
+    color: #3F0;
+    background: #000000;
+    display:inline-block;
+    white-space:pre;
+    letter-spacing:0;
+    line-height:1.4;
+    font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace;
+    font-size:0.8vw;
+    width: auto;
+    word-wrap: break-word;
+    text-overflow: clip;
+
+}

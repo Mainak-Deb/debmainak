@@ -1,10 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
+import Contact from './Contact'
 import Mainhome from './Mainhome'
 import Namehead from './Namehead'
 import Navbar from './Navbar'
 import './styles/home.css'
-
 
 const Home = () => {
    const [navh,setNavh] =useState(false);
@@ -16,8 +16,8 @@ const Home = () => {
       navh && <Navbar  changeNav={setcontent} /> 
     }
     <Mainhome content={content}  />
+    <Contact />
     </div>
- 
     
   )
 }

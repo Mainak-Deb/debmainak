@@ -46,7 +46,7 @@ wait...
  ##:::: ##: ##:::: ##:'####: ##::. ##: ##:::: ##: ##::. ##:
 ..:::::..::..:::::..::....::..::::..::..:::::..::..::::..::
 
-#include<wait,h>
+#include<wait.h>
 Hello i am Deb, Mainak Deb
 The creator of that website
 Thank you for visiting my website❤️

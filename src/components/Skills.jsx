@@ -1,8 +1,11 @@
 import React from 'react'
+import Imageskills from './Imageskills'
 
 const Skills = () => {
   return (
-    <div>Skills</div>
+    <>
+    <Imageskills/>
+    </>
   )
 }
 
